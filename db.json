@@ -1,42 +1,19 @@
 {
   "users": [
     {
-      "name": "Hieu Thai",
-      "id": "ydxSeHx56"
-    },
-    {
       "name": "Hoang",
-      "id": "KhbSUKd6j"
-    },
-    {
-      "name": "Huy",
-      "id": "JpafaUXrg"
-    },
-    {
-      "name": "Loi",
-      "id": "5a2UVpSZG"
+      "phone": "0934106286",
+      "id": "EEnsY3Cyd"
     },
     {
       "name": "Nguyen",
-      "id": "KZPxujG0g"
+      "phone": "01633782879",
+      "id": "n64YeADJb"
     },
     {
-      "name": "Dai",
-      "id": "FL2wnRIiX"
-    },
-    {
-      "name": "Tien",
-      "id": "pIWuYk-Hg"
-    },
-    {
-      "name": "Thinh Pham",
-      "phone": "0123123123",
-      "id": "EBb9dXdqc"
-    },
-    {
-      "name": "AAA",
-      "phone": "0934106286",
-      "id": "FNdig6nYk"
+      "name": "Ba Hai",
+      "phone": "0903675305",
+      "id": "rv4hpgpaD"
     }
   ]
 }
