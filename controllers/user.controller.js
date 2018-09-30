@@ -1,6 +1,5 @@
 var db = require('../db');
 var shortId = require('shortid');
-
 module.exports.index = function(req, res) {
     res.render('users/index', {
 		users: db.get('users').value()
@@ -33,23 +32,7 @@ module.exports.get = function(req, res) {
 module.exports.postCreate = function(req, res) {
     console.log(req.body);
 	req.body.id = shortId.generate();
-	var errors = [];
 
-	if (!req.body.name) {
-		errors.push('Name is required.');
-	}
-
-	if (!req.body.phone) {
-		errors.push('Phone is required.');
-	}
-
-	if (errors.length) {
-		res.render('users/create', {
-			errors: errors,
-			values: req.body
-		});
-		return;
-	}
 	db.get('users').push(req.body).write();
 	res.redirect('/users');
 };
